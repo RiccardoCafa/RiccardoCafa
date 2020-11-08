@@ -8,7 +8,13 @@ export default class Home extends Component {
         return (
             <div>
                 <header className="header-container">
-                    <a href="localhost:3000" className="ricc-dev">RICC DEV</a>
+                    <div className="left">
+                        <a href={process.env.WEB} className="menu-option">RICC DEV</a>
+                    </div>
+                    <div className="right">
+                        <a href={process.env.WEB} className="menu-option">GAMES</a>
+                        <a href={process.env.WEB} className="menu-option">WEB</a>
+                    </div>
                 </header>
                 <body className="main-container">
                     <img src="https://github.com/riccardocafa.png?size=200" alt="profile" className="avatar-image"></img>

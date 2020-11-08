@@ -2,26 +2,46 @@
 
 .header-container {
   background-color: #3c94b8;
-  height: 4em;
-  text-align: center;
-  justify-content: center;
+  height: 4rem;
+  /*text-align: center;
+   justify-content: left;
   align-items: center;
-  align-content: center;
-  display: flex;
+  align-content: center; */
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-row: 1fr;
+  grid-template-areas: "left right";
+  padding: 0 4vw;
 }
 
-.header-container .ricc-dev {
+.menu-option {
   text-decoration: none;
   text-align: center;
   color: #224158;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
 }
 
+.header-container .right a {
+  margin-left: 2rem;
+}
+
+.header-container .right {
+  justify-self: right;
+  align-self: center;
+  grid-area: right;
+}
+
+.header-container .left {
+  justify-self: left;
+  align-self: center;
+  grid-area: left;
+}
+
 .main-container {
-  height: 80em;
-  background-color: #224158;
+  height: 80rem;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: initial;
@@ -29,13 +49,13 @@
 }
 
 .main-container .avatar-image {
-  margin-top: 4em;
-  width: 10em;
-  border-radius: 10em;
+  margin-top: 4rem;
+  width: 10rem;
+  border-radius: 10rem;
 }
 
 .main-container .aboutme-text {
-  margin-top: 3em;
+  margin-top: 3rem;
   align-items: center;
   text-align: center;
   font-size: 30px;
