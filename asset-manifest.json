@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RiccardoCafa/static/css/main.7249f255.chunk.css",
-    "main.js": "/RiccardoCafa/static/js/main.95fc0e8c.chunk.js",
-    "main.js.map": "/RiccardoCafa/static/js/main.95fc0e8c.chunk.js.map",
+    "main.js": "/RiccardoCafa/static/js/main.f11142f9.chunk.js",
+    "main.js.map": "/RiccardoCafa/static/js/main.f11142f9.chunk.js.map",
     "runtime-main.js": "/RiccardoCafa/static/js/runtime-main.f4f8390d.js",
     "runtime-main.js.map": "/RiccardoCafa/static/js/runtime-main.f4f8390d.js.map",
     "static/js/2.6083302e.chunk.js": "/RiccardoCafa/static/js/2.6083302e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.f4f8390d.js",
     "static/js/2.6083302e.chunk.js",
     "static/css/main.7249f255.chunk.css",
-    "static/js/main.95fc0e8c.chunk.js"
+    "static/js/main.f11142f9.chunk.js"
   ]
 }
