@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RiccardoCafa/static/css/main.9cf52f10.chunk.css",
+    "main.css": "/RiccardoCafa/static/css/main.7249f255.chunk.css",
     "main.js": "/RiccardoCafa/static/js/main.95fc0e8c.chunk.js",
     "main.js.map": "/RiccardoCafa/static/js/main.95fc0e8c.chunk.js.map",
     "runtime-main.js": "/RiccardoCafa/static/js/runtime-main.f4f8390d.js",
@@ -8,13 +8,13 @@
     "static/js/2.6083302e.chunk.js": "/RiccardoCafa/static/js/2.6083302e.chunk.js",
     "static/js/2.6083302e.chunk.js.map": "/RiccardoCafa/static/js/2.6083302e.chunk.js.map",
     "index.html": "/RiccardoCafa/index.html",
-    "static/css/main.9cf52f10.chunk.css.map": "/RiccardoCafa/static/css/main.9cf52f10.chunk.css.map",
+    "static/css/main.7249f255.chunk.css.map": "/RiccardoCafa/static/css/main.7249f255.chunk.css.map",
     "static/js/2.6083302e.chunk.js.LICENSE.txt": "/RiccardoCafa/static/js/2.6083302e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4f8390d.js",
     "static/js/2.6083302e.chunk.js",
-    "static/css/main.9cf52f10.chunk.css",
+    "static/css/main.7249f255.chunk.css",
     "static/js/main.95fc0e8c.chunk.js"
   ]
 }
