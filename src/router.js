@@ -6,7 +6,7 @@ import Home from '../src/pages/home/index';
 export default function router() {
     return (
         <BrowserRouter>
-            <Route path="/" exact component={Home}/>
+            <Route path="/RiccardoCafa/" exact component={Home}/>
         </BrowserRouter>
     );
 }
