@@ -8,6 +8,14 @@ import { GlobalStyles } from './global';
 function App() {
   const [theme, setTheme] = useState('dark');
 
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }
+
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <>

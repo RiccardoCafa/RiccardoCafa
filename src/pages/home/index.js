@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import 'semantic-ui-css/semantic.min.css';
+import { Button, Icon, Image, Item, Label, Group, Grid } from 'semantic-ui-react';
+
 import {
     HeaderContainer, 
     MenuOption, 
@@ -10,7 +13,9 @@ import {
     MenuOptionRight, 
     HeaderContainerRight,
     MidiaContainer,
-    MidiaImage
+    MidiaImage,
+    ProjectContainer,
+    ItemGrid
 } from './style.js';
 
 import {
@@ -19,10 +24,21 @@ import {
     FaGithub
 } from 'react-icons/fa';
 
-export default class Home extends Component {
-    
-    openWebsite(url) {
+import ProjectInfo from '../../component/ProjectInfo/index';
 
+import data from '../../data/projects.json';
+
+import gamopImg from '../../assets/Gamop.png';
+
+import ThemeProvider from '../../component/ThemeProvider/index';
+
+export default class Home extends Component {
+
+    getImage(name) {
+        switch(name) {
+            case "gamop": return gamopImg;
+            default: return "";
+        }
     }
 
     render() {
@@ -38,6 +54,7 @@ export default class Home extends Component {
                     </HeaderContainerRight>
                 </HeaderContainer>
                 <MainContainer>
+                    <ThemeProvider></ThemeProvider>
                     <AvatarImage src="https://github.com/riccardocafa.png?size=200" alt="profile"></AvatarImage>
                     <AboutmeText>
                         I'm Ricc! <br/>
@@ -58,6 +75,18 @@ export default class Home extends Component {
                         </MidiaImage>
                     </MidiaContainer>
                 </MainContainer>
+                <HeaderContainer>
+                    <HeaderContainerLeft>
+                        <MenuOption>GAMES</MenuOption>
+                    </HeaderContainerLeft>
+                </HeaderContainer>
+                <ProjectContainer>
+                    <Item.Group>
+                        {data.map((project, index) =>
+                            <ProjectInfo key={index} proj_img={this.getImage(project.img_url)} project={project}></ProjectInfo>
+                        )}
+                    </Item.Group>
+                </ProjectContainer>
             </div>
         );
     }
