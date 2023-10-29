@@ -57,7 +57,3 @@ In addition to game development, I occasionally work on small web app projects. 
 
 Open Source projects I've contributed to: 
 - [Whisper](https://github.com/Dun-sin/Whisper)
-
-# 2023 Hacktoberfest Badges!
-
-[![An image of @riccardocafa's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/riccardocafa)](https://holopin.io/@riccardocafa)
