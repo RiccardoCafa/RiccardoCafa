@@ -55,5 +55,3 @@ In addition to game development, I occasionally work on small web app projects. 
 
 [![My Stats](https://awesome-github-stats.azurewebsites.net/user-stats/riccardocafa)](https://git.io/awesome-stats-card)
 
-Open Source projects I've contributed to: 
-- [Whisper](https://github.com/Dun-sin/Whisper)
