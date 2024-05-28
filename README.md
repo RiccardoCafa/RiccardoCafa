@@ -1,7 +1,7 @@
 
 # Hello! Welcome to my github profile :)
 
-Hey there, I'm Riccardo Cafagna, a software engineer enthusiast with a passion for all things tech. Feel free to drop me a line – I'm always up for a chat or some coding adventures! 😄👨‍💻
+Hey there, I'm Riccardo Cafagna, a software engineer with a passion for all things tech. Feel free to drop me a line – I'm always up for a chat or some coding adventures! 😄👨‍💻
 
 ## Personal Project
 
